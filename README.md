@@ -1,6 +1,18 @@
 # ZOOM Clone
-## Descripcion / Description
+
+## Descripción / Description
+
 ### Español
+
+¡Bienvenido al repositorio de mi Clon de Zoom!
+
+Este proyecto es un clon de la aplicación de videollamadas Zoom, lo de desarrolle con el objetivo de de investigar y analizar mas a fondo el funcionamiento de las aplicaciones de comunicacion como Zoom, por lo tanto, esta aplicacion no busca lucrarse de ninguna forma. La aplicación la desarrolle a traves del framework Next.Js, Tailwind.css, Typescript y Stream como el motor para las videllamadas. Esta permite a los usuarios realizar videollamadas una o mas personas, compartir pantallas y archivos, y muchas otras funcionalidades que facilitan la colaboración a distancia.
+
+### English
+Welcome to my Zoom Clone repository!
+
+This project is a clone of the Zoom video conferencing application, developed with the aim of investigating and analyzing the functionality of communication applications like Zoom. Therefore, this application does not seek to profit in any way. I developed the application using the Next.js framework, Tailwind.css, TypeScript, and Stream as the engine for video calls. It allows users to make video calls with one or more people, share screens and files, and includes many other features that facilitate remote collaboration.
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
