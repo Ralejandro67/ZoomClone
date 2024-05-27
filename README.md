@@ -144,4 +144,4 @@ When you have completed all the previous steps, the project will be ready to run
 ```sh
 npm run dev
 ```
-Once you have executed the command, the project will start running at "http://localhost:3000" by default. If it doesn't run at localhost:3000, after executing the command "npm run dev," you will be given the **URL** where the project is running. Copy the URL into your browser, and you're all set.
+Once you have executed the command, the project will start running at "http://localhost:3000" by default. If it doesn't run at localhost:3000, after executing the command "npm run dev", you will be given the **URL** where the project is running. Copy the URL into your browser, and you're all set.
