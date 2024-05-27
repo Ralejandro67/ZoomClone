@@ -48,6 +48,16 @@ De antemano deberas de instalar las siguientes herramientas para el proceso:
 - [Node.js](https://nodejs.org/en)
 - [npm (Node Package Manager)](https://www.npmjs.com)
 
+**Herramientas**
+- Next.js
+- TypeScript
+- Clerk
+- getstream
+- shadcn
+- Tailwind CSS
+
+**Clonar el Repositorio**
+
 ### English
 
 
