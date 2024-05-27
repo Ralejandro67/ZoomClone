@@ -83,7 +83,7 @@ STREAM_SECRET_KEY=
 
 NEXT_PUBLIC_BASE_URL=
 ```
-Despues de cada igual, deben ir las credenciales que obtendras de Stream y Clerk al crear o ingresar a tus cuentas existentes para cada herramienta. Pueder acceder a ambas herramientas aqui: [Clerk](https://clerk.com) y [Stream](https://getstream.io)
+Despues de cada signo de igual, deben ir las credenciales que obtendras de Stream y Clerk al crear o ingresar a tus cuentas existentes para cada herramienta. Pueder acceder a ambas herramientas aqui: [Clerk](https://clerk.com) y [Stream](https://getstream.io)
 
 **Ejecutando el Proyecto**
 
