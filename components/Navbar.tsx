@@ -15,7 +15,7 @@ const Navbar = () => {
           alt='Zoom Logo'
           className='max-sm:size-10'
         />
-        <p className='pl-2 text-[26px] font-extrabold text-white max-sm:hidden'>Zoom</p>
+        <p className='pl-2 text-[26px] font-extrabold text-white max-sm:hidden'>Zoom Clone</p>
       </Link>
       <div className='flex-between gap-5'>
         <SignedIn>
