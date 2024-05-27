@@ -57,47 +57,85 @@ De antemano deberas de instalar las siguientes herramientas para el proceso:
 - [npm (Node Package Manager)](https://www.npmjs.com)
 
 **Clonar el Repositorio**
-
 ```sh
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/Ralejandro67/ZoomClone
 ```
+
+**Instalacion**
+Instala las dependencias del projecto usando el comando:
+```sh
+npm install
+```
+
+**Archivo .env**
+En la raiz del projecto deberas crear un archivo llamado ".env.local" y dentro del archivo deberas poner el siguiente contenido:
+```sh
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_STREAM_API_KEY=
+STREAM_SECRET_KEY=
+
+NEXT_PUBLIC_BASE_URL=
+```
+Despues de cada igual, deben ir las credenciales que obtendras de Stream y Clerk al crear o ingresar a tus cuentas existentes para cada herramienta. Pueder acceder a ambas herramientas aqui: [Clerk](https://clerk.com) y [Stream](https://getstream.io)
+
+**Ejecutando el Proyecto**
+Cuando realices todos los pasos anteriores, el projecto estara listo para ejecutarlo, para el cual, en la terminal deberas correr el siguiente comando:
+```sh
+npm run dev
+```
+Una vez hayas ejecutado el comando, el proyecto empezara a correr en "http://localhost:3000" por defecto, sino corre en localhost:3000, despues de haber ejecutado el comando "npm run dev" se te dara la **URL** en la que esta corriendo el proyecto, copia la url en tu navegador y listo.
 
 ### English
+If you wish to clone the repository, you must follow these steps to ensure the project functions correctly:
 
+**Tools that will be use**
+- Next.js
+- TypeScript
+- Clerk
+- getstream
+- shadcn
+- Tailwind CSS
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Beforehand, you will need to install the following tools for the process:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en)
+- [npm (Node Package Manager)](https://www.npmjs.com)
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Clone the Repository**
+```sh
+git clone https://github.com/Ralejandro67/ZoomClone
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Installation**
+Install the project dependencies using the command:
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**File .env**
+In the root of the project, you need to create a file named ".env.local" and inside the file, you need to add the following content:
+```sh
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-## Learn More
+NEXT_PUBLIC_STREAM_API_KEY=
+STREAM_SECRET_KEY=
 
-To learn more about Next.js, take a look at the following resources:
+NEXT_PUBLIC_BASE_URL=
+```
+After each equals sign, you should place the credentials that you will obtain from Stream and Clerk when creating or logging into your existing accounts for each tool. You can access both tools here: [Clerk](https://clerk.com) and [Stream](https://getstream.io)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Running the Project**
+When you have completed all the previous steps, the project will be ready to run. To do this, you need to run the following command in the terminal:
+```sh
+npm run dev
+```
+Once you have executed the command, the project will start running at "http://localhost:3000" by default. If it doesn't run at localhost:3000, after executing the command "npm run dev," you will be given the **URL** where the project is running. Copy the URL into your browser, and you're all set.
