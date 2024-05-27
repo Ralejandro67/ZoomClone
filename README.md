@@ -43,11 +43,6 @@ In this project you will be able to identify the following features:
 ### Español
 Si deseas clonar el repositorio deberas seguir los siguientes pasos para garantizar el funcionamiento del proyecto:
 
-De antemano deberas de instalar las siguientes herramientas para el proceso:
-- [Git](https://git-scm.com)
-- [Node.js](https://nodejs.org/en)
-- [npm (Node Package Manager)](https://www.npmjs.com)
-
 **Herramientas**
 - Next.js
 - TypeScript
@@ -55,6 +50,11 @@ De antemano deberas de instalar las siguientes herramientas para el proceso:
 - getstream
 - shadcn
 - Tailwind CSS
+
+De antemano deberas de instalar las siguientes herramientas para el proceso:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en)
+- [npm (Node Package Manager)](https://www.npmjs.com)
 
 **Clonar el Repositorio**
 
