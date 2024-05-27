@@ -62,12 +62,14 @@ git clone https://github.com/Ralejandro67/ZoomClone
 ```
 
 **Instalacion**
+
 Instala las dependencias del projecto usando el comando:
 ```sh
 npm install
 ```
 
 **Archivo .env**
+
 En la raiz del projecto deberas crear un archivo llamado ".env.local" y dentro del archivo deberas poner el siguiente contenido:
 ```sh
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -113,12 +115,14 @@ git clone https://github.com/Ralejandro67/ZoomClone
 ```
 
 **Installation**
+
 Install the project dependencies using the command:
 ```sh
 npm install
 ```
 
 **File .env**
+
 In the root of the project, you need to create a file named ".env.local" and inside the file, you need to add the following content:
 ```sh
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
@@ -135,6 +139,7 @@ NEXT_PUBLIC_BASE_URL=
 After each equals sign, you should place the credentials that you will obtain from Stream and Clerk when creating or logging into your existing accounts for each tool. You can access both tools here: [Clerk](https://clerk.com) and [Stream](https://getstream.io)
 
 **Running the Project**
+
 When you have completed all the previous steps, the project will be ready to run. To do this, you need to run the following command in the terminal:
 ```sh
 npm run dev
