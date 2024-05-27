@@ -12,22 +12,33 @@ Welcome to my Zoom Clone repository!
 
 This project is a clone of the Zoom video conferencing application, developed with the aim of investigating and analyzing the functionality of communication applications like Zoom. Therefore, this application does not seek to profit in any way. I developed the application using the Next.js framework, Tailwind.css, TypeScript, and Stream as the engine for video calls. It allows users to make video calls with one or more people, share screens and files, and includes many other features that facilitate remote collaboration.
 
-## Características / Characteristics
+## Características / Features
 ### Español
-
+En este proyecto podrás identificar las siguientes características:
+- Autenticación: Para la autenticación y la autorización, he utilizado Clerk, que permite a los usuarios iniciar sesión de manera segura a través de redes sociales o métodos tradicionales de correo electrónico y contraseña, asegurando niveles de acceso y permisos apropiados dentro de la plataforma.
+- Reuniones: Se pueden crear nuevas reuniones fácilmente y permite al usuario configurar la cámara y los ajustes de micrófono antes de unirse a través de Stream.
+- Controles de Reunión: Durante una reunión, los participantes tienen control total sobre los aspectos de la reunión, incluyendo grabación, reacciones con emojis, compartir pantalla, silenciar/reactivar micrófono, ajustes de sonido, diseño de cuadrícula, vista de lista de participantes, salir de una reunión o los creadores pueden finalizarla para todos los asistentes, y gestión individual de participantes (fijar, silenciar, reactivar micrófono, bloquear, permitir compartir video).
+- Programacion de Reuniones Futuras: Los usuarios pueden ingresar los detalles de la reunión (fecha, hora) para programar reuniones futuras, accesibles en la página de 'Próximas Reuniones' para compartir el enlace o comenzar de inmediato.
+- Lista de Reuniones Pasadas: Accede a una lista de reuniones previamente realizadas, incluyendo detalles y metadatos.
+- Ver Reuniones Grabadas: Accede a grabaciones de reuniones pasadas para revisión o referencia.
+- Sala Personal: Los usuarios tienen una sala personal con un enlace único de reunión para reuniones instantáneas, que se puede compartir con otros.
+- Unirse a Reuniones a través de Enlace: Únete fácilmente a reuniones creadas por otros proporcionando un enlace.
+- Funcionalidades en Tiempo Real: Todas las interacciones dentro de la plataforma son seguras y ocurren en tiempo real, manteniendo la privacidad del usuario y la integridad de los datos.
+- Diseño Responsivo: Sigue los principios de diseño responsivo para asegurar una experiencia óptima del usuario en todos los dispositivos, adaptándose sin problemas a diferentes tamaños de pantalla y resoluciones.
 
 ### English
-- Authentication: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
-- New Meeting: Quickly start a new meeting, configuring camera and microphone settings before joining.
-- Meeting Controls: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
-- Exit Meeting: Participants can leave a meeting, or creators can end it for all attendees.
-- Schedule Future Meetings: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
+In this project you will be able to identify the following features:
+- Authentication: For the authentication and the authorization, I have use Clerk which allows users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
+- Meetings: New meetings can be easily created and it allows user to configure the camera and microphone settings before joining through Stream.
+- Meeting Controls: During a meeting, participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, leave a meeting or creators can end it for all attendees, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
+- Schedule Future Meetings: Users can input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
 - Past Meetings List: Access a list of previously held meetings, including details and metadata.
 - View Recorded Meetings: Access recordings of past meetings for review or reference.
 - Personal Room: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
 - Join Meetings via Link: Easily join meetings created by others by providing a link.
 - Secure Real-time Functionality: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
 - Responsive Design: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
+
 ## Instrucciones / Instructions
 ### Español
 
