@@ -43,7 +43,7 @@ In this project you will be able to identify the following features:
 ### Español
 Si deseas clonar el repositorio deberas seguir los siguientes pasos para garantizar el funcionamiento del proyecto:
 
-**Herramientas**
+**Herramientas que se usaran**
 - Next.js
 - TypeScript
 - Clerk
@@ -57,6 +57,10 @@ De antemano deberas de instalar las siguientes herramientas para el proceso:
 - [npm (Node Package Manager)](https://www.npmjs.com)
 
 **Clonar el Repositorio**
+\`\`\`python
+def mi_funcion():
+    print("Hola, mundo!")
+\`\`\`
 
 ### English
 
