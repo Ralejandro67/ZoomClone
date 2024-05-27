@@ -58,9 +58,9 @@ De antemano deberas de instalar las siguientes herramientas para el proceso:
 
 **Clonar el Repositorio**
 
-\`\`\`sh
+```sh
    git clone https://github.com/tu-usuario/tu-repositorio.git
-   \`\`\`
+```
 
 ### English
 
