@@ -84,6 +84,7 @@ NEXT_PUBLIC_BASE_URL=
 Despues de cada igual, deben ir las credenciales que obtendras de Stream y Clerk al crear o ingresar a tus cuentas existentes para cada herramienta. Pueder acceder a ambas herramientas aqui: [Clerk](https://clerk.com) y [Stream](https://getstream.io)
 
 **Ejecutando el Proyecto**
+
 Cuando realices todos los pasos anteriores, el projecto estara listo para ejecutarlo, para el cual, en la terminal deberas correr el siguiente comando:
 ```sh
 npm run dev
