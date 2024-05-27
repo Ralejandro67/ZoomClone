@@ -57,10 +57,10 @@ De antemano deberas de instalar las siguientes herramientas para el proceso:
 - [npm (Node Package Manager)](https://www.npmjs.com)
 
 **Clonar el Repositorio**
-\`\`\`python
-def mi_funcion():
-    print("Hola, mundo!")
-\`\`\`
+
+\`\`\`sh
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   \`\`\`
 
 ### English
 
